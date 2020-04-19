@@ -1,6 +1,6 @@
 import React from "react";
 
-import imgSrc from "../../images/picture.jpg";
+import imgSrc from "../../images/picture.jpeg";
 import Socials from "../socials";
 
 import classes from "./header.module.css";
@@ -12,12 +12,12 @@ const Header = () => {
         <img
           className={classes.profilePicture}
           src={imgSrc}
-          alt="Ryan Fitzgerald"
+          alt="Berkan Sivri"
         />
       </div>
       <div className={classes.profileContent}>
-        <h1>Ryan Fitzgerald</h1>
-        <h2>Full-Stack Developer based in Toronto, Canada.</h2>
+        <h1>Berkan Sivri</h1>
+        <h2>Full-Stack Developer based in Istanbul, Turkey.</h2>
         <Socials />
       </div>
     </div>

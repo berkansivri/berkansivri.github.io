@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Full-Stack Developer`,
-    description: `Full-Stack Developer based in Toronto, Ontario, Canada.`,
-    author: `@RyanAFitzgerald`,
+    description: `Full-Stack Developer based in Istanbul, Turkey.`,
+    author: `@berkansivri`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
