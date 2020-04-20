@@ -56,7 +56,7 @@ const Socials = () => {
           <a
             className={classes.link}
             target="_blank"
-            href="https://twitter.com/BerkanSvri"
+            href="https://twitter.com/berkansvri"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

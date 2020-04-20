@@ -23,57 +23,109 @@ const IndexPage = () => (
     </Section>
     <Section id="experience" title="Experience">
       <Link
-        title="Ambyint"
-        link="https://ambyint.com"
-        desc="Full-Stack Developer, September 2018 - Present"
+        title="CLevel"
+        link="https://clevel.team"
+        desc="Frontend Developer, January 2020 - Present"
       />
       <Link
-        title="Bank of Canada"
-        link="https://bankofcanada.ca"
-        desc="Full-Stack Developer, January 2018 - September 2018"
+        title="Ready Technology Services"
+        link="https://ready.com.tr"
+        desc="Full-Stack Developer, December 2018 - January 2020"
       />
       <Link
-        title="Bank of Canada"
-        link="https://bankofcanada.ca"
-        desc="Full-Stack Developer (Co-op), May 2015 - August 2017"
-      />
-    </Section>
-    <Section id="projects" title="Projects">
-      <Link
-        title="Pivalink"
-        link="https://pivalink.com"
-        desc="Tool to create microlanding pages that can be easily updated and customized to fit any brand"
-      />
-      <Link
-        title="Coursefacts"
-        link="https://coursefacts.com"
-        desc="A platform where students can read and write university / college course reviews anonymously"
-      />
-      <Link
-        title="Dev Blog"
-        link="https://github.com/RyanFitzgerald/devblog"
-        desc="A open source and minimal personal blog template for developers built with Gatsby and React"
-      />
-      <Link
-        title="Dev Portfolio"
-        link="https://github.com/RyanFitzgerald/devportfolio"
-        desc="An open source and customizable single-page personal portfolio template for developers"
-      />
-      <Link
-        title="Day Counter"
-        link="https://chrome.google.com/webstore/detail/day-counter-new-tab-page/popaiegponeiefbiddhmaphpbdjoegff?hl=en"
-        desc="Chrome extension to track days until or since life events with over 5k active users"
+        title="Doruk Automation and Software Inc."
+        link="https://dorukotomasyon.com/"
+        desc="Full-Stack Developer, February 2018 - December 2018"
       />
     </Section>
     <Section id="skills" title="Skills">
       <Link
         title="Languages & Frameworks"
-        desc="JavaScript (ES6+), Python, React, Node.js, Express.js, Ruby on Rails, PHP"
+        desc="JavaScript (ES6+), React, Vue.js, Node.js, Express.js, C#, .Net Core, GraphQL, Go"
       />
-      <Link title="Databases" desc="MongoDB, PostreSQL, MySQL" />
+      <Link title="Databases" desc="MSSQL, MongoDB" />
       <Link
         title="Other"
-        desc="Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum"
+        desc="Git, Docker, Microservices, API design, Agile / Scrum, RabbitMQ"
+      />
+    </Section>
+    <Section id="education" title="Education">
+      <Link
+        title="Computer Engineering (Bachelor)"
+        desc="Girne American University"
+      />
+    </Section>
+    <Section id="projects" title="Projects">
+      <Link
+        title="LeetCode"
+        link="https://github.com/berkansivri"
+        desc="Complex algorithm problems solutions, regularly (JavaScript)"
+      />
+      <Link
+        title="RGRid"
+        link="https://github.com/Sarpilhan/RGrid"
+        desc="Datatable for Vue.js"
+      />
+      <Link
+        title="TChat"
+        link="https://github.com/berkansivri/TChat"
+        desc="Vue SPA for Auto Translated (Yandex API) Chat via RabbitMQ"
+      />
+      <Link
+        title="VsCode .njsproj"
+        link="https://github.com/berkansivri/VsCode-njsproj"
+        desc="VS Code Extension to Keep Your -.njsproj Files up-to-date Automatically (Node.js)"
+      />
+      <Link
+        title="useMemory"
+        link="https://github.com/berkansivri/useMemory"
+        desc="Online, Real Time, Multiplayer Memory Game on React Hooks"
+      />
+      <Link
+        title="Tic-Tac-Toe"
+        link="https://github.com/berkansivri/Tic-Tac-Toe"
+        desc="Singleplayer, AI Based Tic Tac Toe Game on Vue"
+      />
+      <Link
+        title="React-Tic-Tac-Toe"
+        link="https://github.com/berkansivri/Tic-Tac-Toe"
+        desc="Multiplayer, XOX Game on React Hooks"
+      />
+      <Link
+        title="Vue-Weather"
+        link="https://github.com/berkansivri/Vue-Weather"
+        desc="DarkSky Weather (GraphQL)  Implementation on Vue with Apollo Client"
+      />
+      <Link
+        title="DarkSky-GraphQL"
+        link="https://github.com/berkansivri/DarkSky-GraphQL"
+        desc="Apollo - GraphQL Implementation of DarkSky Weather API"
+      />
+      <Link
+        title="Monolith-Boilerplate-.NET"
+        link="https://github.com/berkansivri/DarkSky-GraphQL"
+        desc="Monolith Layered Architecture .NET Project (WebAPI, Dapper, Unit of Work, Postsharp, Autofac, SimpleInjector)"
+      />
+      <Link
+        title="Trustpilot-Challenge"
+        link="https://github.com/berkansivri/TrustPilot-Challenge"
+        desc="My fast approach to Trustpilot Algorithm Challenge (JavaScript)"
+      />
+    </Section>
+    <Section id="certifications" title="Certifications">
+      <Link
+        title="Microsoft MCP"
+        link="https://www.youracclaim.com/badges/ab4fc56e-8390-497f-9faa-48d248a66c7d"
+        desc="Programming in C#"
+      />
+      <Link
+        title="Microsoft MCP"
+        link="https://www.youracclaim.com/badges/eb7a9c9d-840c-4f6d-bce9-3aea80d6b54e"
+        desc="Programming in HTML5 with JavaScript and CSS3"
+      />
+      <Link
+        title="Codeweek Event Team Leader Certificate"
+        desc="Girne American University Event"
       />
     </Section>
   </Layout>
