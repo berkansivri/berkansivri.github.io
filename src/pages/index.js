@@ -51,7 +51,7 @@ const IndexPage = () => (
     </Section>
     <Section id="education" title="Education">
       <Link
-        title="Computer Engineering (Bachelor)"
+        title="Computer Engineering (Bachelor Degree)"
         desc="Girne American University"
       />
     </Section>
