@@ -23,7 +23,8 @@
     "gh-pages": "^2.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react"
   ],
   "license": "MIT",
   "scripts": {

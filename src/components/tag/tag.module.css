@@ -1,0 +1,40 @@
+.tags {
+  list-style: none;
+  overflow: hidden; 
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.tags li {
+  float: left; 
+}
+
+.tag {
+  font-size: 14px;
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 10px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 7px;
+}
+
+.tag:hover {
+  background-color: crimson;
+  color: white;
+}

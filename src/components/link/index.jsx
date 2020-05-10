@@ -4,7 +4,7 @@ import classes from "./link.module.css";
 
 const Link = ({ desc, link = false, title }) => {
   return (
-    <div className={classes.wrapper}>
+    <>
       {link ? (
         <a className={classes.linkTitle} href={link}>
           {title}
@@ -14,7 +14,7 @@ const Link = ({ desc, link = false, title }) => {
       )}
 
       <p className={classes.desc}>{desc}</p>
-    </div>
+    </>
   );
 };
 
