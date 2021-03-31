@@ -13,7 +13,7 @@ const IndexPage = () => (
     <SEO title="Berkan Sivri" />
     <Section id="about" title="About Me">
       <p>
-        I'm a motivated full-stack engineer who has experience building and
+        I'm a super-motivated software engineer who has experience building and
         scaling web applications and services in various domains.
       </p>
       <p>
@@ -24,18 +24,45 @@ const IndexPage = () => (
     </Section>
     <Section id="experience" title="Experience">
       <Link
+        title="PlusClouds"
+        link="https://plusclouds.com"
+        desc="Frontend Developer, December 2020 - Present"
+      />
+      <Tag tags={["Vue.js", "Vuex", "Bitbucket"]} />
+      <Link
         title="CLevel"
         link="https://clevel.team"
-        desc="Frontend Developer, January 2020 - Present"
+        desc="Frontend Developer, January 2020 - December 2020"
       />
-      <Tag tags={["React", "Vue.js"]} />
+      <Tag
+        tags={[
+          "Architecture",
+          "React",
+          "Redux",
+          "Vue.js",
+          "Vuex",
+          "Node.js",
+          "GitLab",
+        ]}
+      />
       <Link
         title="Ready Technology Services"
         link="https://ready.com.tr"
         desc="Full-Stack Developer, December 2018 - January 2020"
       />
       <Tag
-        tags={["React", "Vue.js", "Node.js", "Asp.NET Core", "Microservices"]}
+        tags={[
+          "Microservices",
+          "Oracle",
+          "MongoDB",
+          "Vue.js",
+          ".Net Core",
+          "Dapper",
+          "RabbitMQ",
+          "Docket",
+          "Azure",
+          "GitHub",
+        ]}
       />
       <Link
         title="Doruk Automation and Software Inc."
@@ -43,7 +70,15 @@ const IndexPage = () => (
         desc="Full-Stack Developer, February 2018 - December 2018"
       />
       <Tag
-        tags={["C#", "Asp.NET MVC", "MSSQL", "HTML", "Bootstrap", "JQuery"]}
+        tags={[
+          "Layered Architecture",
+          "MsSQL",
+          "Asp.Net",
+          "Entity Framework",
+          "Bootstrap",
+          "JQuery",
+          "TFS",
+        ]}
       />
     </Section>
     <Section id="skills" title="Skills">
